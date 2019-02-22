@@ -1,0 +1,8 @@
+{
+  "name": "money-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rafaeldimas/money-api.git",
+  "author": "Rafael Audax <rafael@grupoaudax.com.br>",
+  "license": "MIT"
+}
