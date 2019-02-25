@@ -1,11 +1,11 @@
 const router = require('express').Router()
 
-router.use('/login', async (req, res) => {
+router.post('/login', async (req, res) => {
   //
 })
 
-router.use('/register', async (req, res) => {
-
+router.post('/register', async (req, res) => {
+  //
 })
 
 module.exports = {
