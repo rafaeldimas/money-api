@@ -1,15 +1,15 @@
-require('dotenv').config();
+require('dotenv').config()
 
-const express = require('express');
-const cors = require('cors');
-const routes = require('./routes');
+const express = require('express')
+const cors = require('cors')
+const routes = require('./routes')
 
-const app = express();
+const app = express()
 
-app.use(cors());
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(cors())
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 
-app.use(routes);
+app.use(routes)
 
-app.listen(3000);
+app.listen(3000)
